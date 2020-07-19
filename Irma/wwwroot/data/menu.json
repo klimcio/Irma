@@ -1,6 +1,8 @@
 [
     {
         "name": "Focaccia",
-        "ingredients": [ "czosnek", "bazylia", "oregano" ]
+        "ingredients": [ "czosnek", "bazylia", "oregano" ],
+        "price": 17,
+        "category": "pizza"
     }
 ]

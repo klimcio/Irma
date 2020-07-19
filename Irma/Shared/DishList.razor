@@ -1,0 +1,19 @@
+﻿@inherits Irma.Base.DishListBase
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Ingredients</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dish in dishes)
+        {
+            <tr>
+                <td>@dish.Name</td>
+                <td>@string.Join(", ", dish.Ingredients)</td>
+            </tr>
+        }
+    </tbody>
+</table>

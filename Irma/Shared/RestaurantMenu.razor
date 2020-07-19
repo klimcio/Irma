@@ -1,45 +1,12 @@
-﻿<div>
+﻿@inherits Irma.Base.RestaurantMenuBase
+
+<div>
     @if (menuDishes == null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Ingredients</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var dish in menuDishes)
-                {
-                    <tr>
-                        <td>@dish.Name</td>
-                        <td>@string.Join(", ", dish.Ingredients)</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+        <DishList dishes="menuDishes" />
     }
 </div>
-
-@code
-{
-    public MenuDish[] menuDishes;
-
-    [Inject]
-    protected HttpClient httpClient { get; set; }
-
-    protected override async Task OnInitializedAsync()
-    {
-        menuDishes = await httpClient.GetFromJsonAsync<MenuDish[]>("data/menu.json");
-    }
-
-    public class MenuDish
-    {
-        public string Name { get; set; }
-        public string[] Ingredients { get; set; }
-    }
-}
