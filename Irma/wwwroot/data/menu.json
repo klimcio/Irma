@@ -1,8 +1,119 @@
 [
     {
-        "name": "Focaccia",
-        "ingredients": [ "czosnek", "bazylia", "oregano" ],
-        "price": 17,
+        "name": "Margherita",
+        "ingredients": [ "zio³owy sos pomidorowy", "ser", "oregano" ],
+        "price": 16,
         "category": "pizza"
+    },
+    {
+        "name": "Funghi",
+        "ingredients": [ "sos", "ser", "pieczarki" ],
+        "price": 17.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Prosciutto",
+        "ingredients": [ "sos", "ser", "szynka" ],
+        "price": 18.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Salami",
+        "ingredients": [ "sos", "ser", "salami" ],
+        "price": 19.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Capricciosa",
+        "ingredients": [ "sos", "ser", "szynka", "pieczarki" ],
+        "price": 19.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Hawajska",
+        "ingredients": [ "sos", "ser", "szynka", "ananas" ],
+        "price": 19.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Vegetariana",
+        "ingredients": [ "sos", "ser", "pieczarki", "cebula", "papryka", "pomidor", "broku³" ],
+        "price": 20.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Grecka",
+        "ingredients": [ "sos", "ser", "pomidor", "oliwki", "czerwona cebula", "papryka", "feta" ],
+        "price": 21.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Farmerska",
+        "ingredients": [ "sos", "ser", "kurczak", "pomidor", "papryka", "pieczarki" ],
+        "price": 21.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Ferkot",
+        "ingredients": [ "sos", "ser", "kie³basa kaszubska", "bekon", "cebula", "ogórek kiszony" ],
+        "price": 22,
+        "category": "pizza"
+    },
+    {
+        "name": "Reda",
+        "ingredients": [ "sos", "ser", "szynka", "kurczak", "pomidor", "pieczarki", "ogórek kiszony" ],
+        "price": 22,
+        "category": "pizza"
+    },
+    {
+        "name": "Rumia",
+        "ingredients": [ "sos", "ser", "szynka", "bekon", "papryka", "pieczarki", "cebula" ],
+        "price": 22,
+        "category": "pizza"
+    },
+    {
+        "name": "Hot Peperoni",
+        "ingredients": [ "sos", "ser", "pikantny sos chilli", "kie³basa pepperoni", "papryczki jalapeno", "cebula" ],
+        "price": 22.50,
+        "category": "pizza"
+    },
+    {
+        "name": "Pierogi ruskie",
+        "price": 15,
+        "category": "pierogi"
+    },
+    {
+        "name": "Pierogi ze szpinakiem",
+        "price": 15,
+        "ingredients": ["szpinak"],
+        "category": "pierogi"
+    },
+    {
+        "name": "Pierogi z kapust¹ i grzybami",
+        "price": 15,
+        "ingredients": [ "kapusta", "grzyby" ],
+        "category": "pierogi"
+    },
+    {
+        "name": "Pierogi z miêsem",
+        "price": 15,
+        "ingredients": [ "mielona wieprzowina" ],
+        "category": "pierogi"
+    },
+    {
+        "name": "Sa³atka grecka",
+        "price": 16,
+        "ingredients": [
+            "sa³ata lodowa", "ser feta", "ogórek œwie¿y", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
+        ],
+        "category": "sa³atki"
+    },
+    {
+        "name": "Sa³atka gyros",
+        "price": 16,
+        "ingredients": [
+            "sa³ata lodowa", "ser feta", "ogórek œwie¿y", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
+        ],
+        "category": "sa³atki"
     }
 ]
