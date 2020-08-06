@@ -1,7 +1,7 @@
 [
     {
         "name": "Margherita",
-        "ingredients": [ "zio³owy sos pomidorowy", "ser", "oregano" ],
+        "ingredients": [ "ziolowy sos pomidorowy", "ser", "oregano" ],
         "price": 16,
         "category": "pizza"
     },
@@ -37,7 +37,7 @@
     },
     {
         "name": "Vegetariana",
-        "ingredients": [ "sos", "ser", "pieczarki", "cebula", "papryka", "pomidor", "broku³" ],
+        "ingredients": [ "sos", "ser", "pieczarki", "cebula", "papryka", "pomidor", "brokul" ],
         "price": 20.50,
         "category": "pizza"
     },
@@ -55,13 +55,13 @@
     },
     {
         "name": "Ferkot",
-        "ingredients": [ "sos", "ser", "kie³basa kaszubska", "bekon", "cebula", "ogórek kiszony" ],
+        "ingredients": [ "sos", "ser", "kielbasa kaszubska", "bekon", "cebula", "ogorek kiszony" ],
         "price": 22,
         "category": "pizza"
     },
     {
         "name": "Reda",
-        "ingredients": [ "sos", "ser", "szynka", "kurczak", "pomidor", "pieczarki", "ogórek kiszony" ],
+        "ingredients": [ "sos", "ser", "szynka", "kurczak", "pomidor", "pieczarki", "ogorek kiszony" ],
         "price": 22,
         "category": "pizza"
     },
@@ -73,13 +73,14 @@
     },
     {
         "name": "Hot Peperoni",
-        "ingredients": [ "sos", "ser", "pikantny sos chilli", "kie³basa pepperoni", "papryczki jalapeno", "cebula" ],
+        "ingredients": [ "sos", "ser", "pikantny sos chilli", "kielbasa pepperoni", "papryczki jalapeno", "cebula" ],
         "price": 22.50,
         "category": "pizza"
     },
     {
         "name": "Pierogi ruskie",
         "price": 15,
+        "ingredients": [],
         "category": "pierogi"
     },
     {
@@ -89,31 +90,31 @@
         "category": "pierogi"
     },
     {
-        "name": "Pierogi z kapust¹ i grzybami",
+        "name": "Pierogi z kapusta i grzybami",
         "price": 15,
         "ingredients": [ "kapusta", "grzyby" ],
         "category": "pierogi"
     },
     {
-        "name": "Pierogi z miêsem",
+        "name": "Pierogi z miesem",
         "price": 15,
         "ingredients": [ "mielona wieprzowina" ],
         "category": "pierogi"
     },
     {
-        "name": "Sa³atka grecka",
+        "name": "Salatka grecka",
         "price": 16,
         "ingredients": [
-            "sa³ata lodowa", "ser feta", "ogórek œwie¿y", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
+            "salata lodowa", "ser feta", "ogorek swiezy", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
         ],
-        "category": "sa³atki"
+        "category": "salatki"
     },
     {
-        "name": "Sa³atka gyros",
+        "name": "Salatka gyros",
         "price": 16,
         "ingredients": [
-            "sa³ata lodowa", "ser feta", "ogórek œwie¿y", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
+            "salata lodowa", "ser feta", "ogorek swiezy", "czerwona cebula", "oliwki", "pomidor", "papryka", "sos vinegrette"
         ],
-        "category": "sa³atki"
+        "category": "salatki"
     }
 ]
