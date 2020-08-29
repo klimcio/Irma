@@ -1,5 +1,6 @@
 ﻿using Irma.Models;
 using Microsoft.AspNetCore.Components;
+using System;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
@@ -16,6 +17,11 @@ namespace Irma.Base
         protected override async Task OnInitializedAsync()
         {
             menuDishes = await httpClient.GetFromJsonAsync<MenuDish[]>("data/menu.json");
+        }
+
+        protected void HandleFilterChange(ChangeEventArgs e)
+        {
+            var filterString = e.Value.ToString();
         }
     }
 }
