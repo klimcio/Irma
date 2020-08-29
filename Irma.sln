@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Irma", "Irma\Irma.csproj", "{E556756D-EDD7-4C67-9808-5346B0C93E89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irma.Tools", "Irma.Tools\Irma.Tools.csproj", "{5A574912-448D-44B3-BD55-29798D9A0923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Irma.Tests", "Irma.Tests\Irma.Tests.csproj", "{6C22FD62-BE46-43C0-BC7E-9003E0FA64C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E556756D-EDD7-4C67-9808-5346B0C93E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E556756D-EDD7-4C67-9808-5346B0C93E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E556756D-EDD7-4C67-9808-5346B0C93E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A574912-448D-44B3-BD55-29798D9A0923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A574912-448D-44B3-BD55-29798D9A0923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A574912-448D-44B3-BD55-29798D9A0923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A574912-448D-44B3-BD55-29798D9A0923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C22FD62-BE46-43C0-BC7E-9003E0FA64C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C22FD62-BE46-43C0-BC7E-9003E0FA64C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C22FD62-BE46-43C0-BC7E-9003E0FA64C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C22FD62-BE46-43C0-BC7E-9003E0FA64C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
