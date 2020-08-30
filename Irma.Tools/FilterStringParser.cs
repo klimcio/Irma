@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Linq;
 
 namespace Irma.Tools
 {
@@ -11,7 +11,15 @@ namespace Irma.Tools
     {
         public ParsedFilters Parse(string inputString)
         {
-            throw new NotImplementedException();
+            var conditions = inputString
+                .Split(',')
+                .Select(x => x.Trim());
+
+            return new ParsedFilters
+            {
+                Include = conditions.Where(x => !x.StartsWith("-")).ToList(),
+                Exclude = conditions.Where(x => x.StartsWith("-")).Select(x => x.TrimStart('-')).ToList()
+            };
         }
     }
 }
